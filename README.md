@@ -15,7 +15,8 @@ The problem is divided into two parts:
 
 * **Dual Solution:** Solves both Part 1 and Part 2 in a single pass.
 * **Performance Optimized:** Uses `Predicate<String>` to avoid redundant string conversions.
-* **Robust Input Handling:** * Reads from `input.txt`.
+* **Robust Input Handling:**
+    * Reads from `input.txt`.
     * Falls back to default example data if the file is missing or empty.
     * Handles reversed ranges (e.g., `12-10` is treated as `10-12`).
     * Skips malformed data without crashing.
